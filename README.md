@@ -1,6 +1,6 @@
 # Server Hospital
 
-Ejectuar
+Ejecutar
 
 ```
 npm install

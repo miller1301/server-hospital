@@ -15,13 +15,7 @@ dbConnection();
 
 
 // Routes
-app.get('/', (req, res) => {
-    res.json({
-        ok: true,
-        msg: "Hola mundo"
-    })
-})
-
+app.use('/api/usuarios', require('./routes/users.route'));
 
 app.listen(process.env.PORT, () => {
     console.log('Server Init Port', process.env.PORT);
